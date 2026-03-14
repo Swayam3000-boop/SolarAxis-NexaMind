@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SolarAxis — Page Not Found</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    background:#13161a; color:#cdd0d4;
+    font-family:'DM Sans',sans-serif;
+    display:flex; align-items:center; justify-content:center;
+    min-height:100vh; text-align:center; padding:24px;
+  }
+  .icon { font-size:64px; margin-bottom:20px; }
+  h1 { font-size:24px; font-weight:700; margin-bottom:10px; color:#c8922a; }
+  p  { font-size:14px; color:#6b7a84; margin-bottom:28px; }
+  a  {
+    padding:12px 28px; background:#c8922a; color:#0f0f0f;
+    text-decoration:none; border-radius:10px;
+    font-weight:700; font-size:14px;
+  }
+</style>
+</head>
+<body>
+  <div>
+    <div class="icon">☀️</div>
+    <h1>Page not found</h1>
+    <p>The page you're looking for doesn't exist.<br>Head back to the SolarAxis dashboard.</p>
+    <a href="/">Back to SolarAxis</a>
+  </div>
+  <script>
+    // SPA redirect — send unknown paths back to index
+    sessionStorage.redirect = location.href;
+    location.replace('/');
+  </script>
+</body>
+</html>

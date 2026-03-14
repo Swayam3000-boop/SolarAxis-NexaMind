@@ -1,0 +1,18 @@
+# GitHub Pages configuration
+title: SolarAxis
+description: Intelligent Solar Energy Monitoring Platform
+theme: null
+
+# Disable Jekyll processing (we have a pure static site)
+plugins: []
+
+# Make sure index.html is served
+include:
+  - index.html
+  - manifest.json
+  - assets/
+
+exclude:
+  - README.md
+  - .gitignore
+  - "*.md"

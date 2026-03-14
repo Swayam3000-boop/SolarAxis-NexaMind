@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.db
+*.sqlite3
+venv/
+.env
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build artifacts
+dist/
+build/
+*.log
