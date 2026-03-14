@@ -1,8 +1,8 @@
 {
   "name": "SolarAxis \u2014 Intelligent Energy Platform",
   "short_name": "SolarAxis",
-  "description": "Smart solar energy monitoring, net metering & royalty management platform",
-  "start_url": "/",
+  "description": "Smart solar energy monitoring, net metering & royalty management",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#13161a",
   "theme_color": "#c8922a",
@@ -17,7 +17,6 @@
   ],
   "categories": [
     "utilities",
-    "energy",
-    "productivity"
+    "energy"
   ]
 }
